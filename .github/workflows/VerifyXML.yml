@@ -1,0 +1,25 @@
+name: Validate XML Files in mainCode
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-xml-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify all files in mainCode are XML
+        run: |
+          invalid_files=$(find mainCode -type f ! -name "*.xml")
+          
+          if [ -n "$invalid_files" ]; then
+            echo "The following files are not XML:"
+            echo "$invalid_files"
+            exit 1
+          else
+            echo "All files in mainCode are XML files."
+          fi
