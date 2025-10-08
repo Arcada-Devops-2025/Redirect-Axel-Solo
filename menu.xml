@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Gather numDigits="1" action="/handle-input.xml" method="POST" timeout="5">
+    <Say>Please select what you want by pressing the appropriate number.</Say>
+    <Say>Press 1 if you want some jokes.</Say>
+    <Say>Press 2 if you want your future predicted.</Say>
+    <Say>Press 3 if you want today's exotic encounter.</Say>
+  </Gather>
+  <!-- If no input -->
+  <Say>No input detected, let's try again.</Say>
+  <Redirect method="POST">/menu.xml</Redirect>
+</Response>
