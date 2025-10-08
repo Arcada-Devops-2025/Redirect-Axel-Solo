@@ -32,6 +32,6 @@
   </If>
   <Else>
     <Say>Invalid number, try again.</Say>
-    <Redirect method="POST">/menu.xml</Redirect>
+    <Redirect method="POST">./menu.xml</Redirect>
   </Else>
 </Response>
