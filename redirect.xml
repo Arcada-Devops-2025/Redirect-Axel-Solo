@@ -10,7 +10,7 @@
     <Redirect method="POST">/exotic.xml</Redirect>
   </If>
   <Else>
-    <Say>Invalid choice. Please try again.</Say>
+    <Say>Invalid number, try again.</Say>
     <Redirect method="POST">/menu.xml</Redirect>
   </Else>
 </Response>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Gather numDigits="1" action="/redirect-jokes.xml" method="POST" timeout="10">
+    <Say>please press the number you like most.</Say>
+  </Gather>
+  <!-- If no input -->
+  <Say>No input detected, try again.</Say>
+  <Redirect method="POST">/jokes.xml</Redirect>
+</Response>
