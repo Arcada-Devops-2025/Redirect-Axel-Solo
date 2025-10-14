@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <If condition="Digits == 1">
-    <Redirect method="POST">./jokes.xml</Redirect>
+    <Redirect method="GET">./jokes.xml</Redirect>
   </If>
   <If condition="Digits == 2">
-    <Redirect method="POST">./future.xml</Redirect>
+    <Redirect method="GET">./future.xml</Redirect>
   </If>
   <If condition="Digits == 3">
-    <Redirect method="POST">./exotic.xml</Redirect>
+    <Redirect method="GET">./exotic.xml</Redirect>
   </If>
   <Else>
     <Say>Invalid number, try again.</Say>
-    <Redirect method="POST">./menu.xml</Redirect>
+    <Redirect method="GET">./menu.xml</Redirect>
   </Else>
 </Response>
