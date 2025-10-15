@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Gather numDigits="1" action="https://hiesbnubb8.execute-api.eu-north-1.amazonaws.com/default/TwilJokeRedirector" method="GET" timeout="10">
-    <Say>please press the number you like most.</Say>
+  <Gather numDigits="1" action="https://4y2i7unspj.execute-api.eu-north-1.amazonaws.com/default/TwilJokerRedirect" method="GET" timeout="10">
+    <Say>please press the number you like most. or just 1 if you are testing.</Say>
   </Gather>
   <!-- If no input, try again -->
   <Redirect method="GET">./jokes.xml</Redirect>
