@@ -14,7 +14,7 @@ export const handler = async (event) => {
     case '2':
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Redirect method="GET">http://testforexersise.s3-website.eu-north-1.amazonaws.com/mainCode/future.xml</Redirect>
+  <Redirect method="GET">http://testforexersise.s3-website.eu-north-1.amazonaws.com/mainCode/Serious.xml</Redirect>
 </Response>`;
       break;
     case '3':
