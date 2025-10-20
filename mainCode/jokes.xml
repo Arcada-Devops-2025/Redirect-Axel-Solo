@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Gather numDigits="1" action="https://4y2i7unspj.execute-api.eu-north-1.amazonaws.com/default/TwilJokerRedirect" method="GET" timeout="10">
-    <Say>please press the number you like most. or just 1 if you are testing.</Say>
+    <Say>Press 1 for fun facts.</Say>
+    <Say>Press 2 for a Jukebox.</Say>
+    <Say>Press 3 for some Trivia .</Say>
+    <Say>Press 4 for a dad joke.</Say>
+    <Say>Press 5 if you want to listen to Sir Talks-a-lot.</Say>
+    <Say>Press 6 to play rock paper scisors.</Say>
+    <Say>Press 7 for some jokes.</Say>
+    <Say>Press 8 for a... Chicken?</Say>
   </Gather>
   <!-- If no input, try again -->
   <Redirect method="GET">./jokes.xml</Redirect>

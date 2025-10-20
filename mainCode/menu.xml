@@ -2,9 +2,9 @@
 <Response>
   <Gather numDigits="1" action="https://30s1ugvyol.execute-api.eu-north-1.amazonaws.com/default/TwilMainRedirector" method="GET" timeout="10">
     <Say>Please select what you want by pressing the appropriate number.</Say>
-    <Say>Press 1 if you want some jokes.</Say>
-    <Say>Press 2 if you want your future predicted.</Say>
-    <Say>Press 3 if you want something else.</Say>
+    <Say>Press 1 if you want something Fun.</Say>
+    <Say>Press 2 for something more serious.</Say>
+    <Say>Press 3 for something unusual.</Say>
   </Gather>
   <!-- If no input, try again -->
   <Redirect method="GET">./menu.xml</Redirect>
