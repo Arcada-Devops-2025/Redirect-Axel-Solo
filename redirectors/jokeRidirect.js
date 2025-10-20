@@ -20,7 +20,7 @@ export const handler = async (event) => {
     case '3':
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Redirect method="POST">https://devops-twiliobot-tasthu-1.onrender.com</Redirect>
+  <Redirect method="POST">https://devops-twiliobot-tasthu-1.onrender.com/voice</Redirect>
 </Response>`;
       break;
     case '4':

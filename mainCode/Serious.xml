@@ -12,5 +12,5 @@
     <Say>Press 9 to ask ChatGPT.</Say>
   </Gather>
   <!-- If no input, try again -->
-  <Redirect method="GET">./jokes.xml</Redirect>
+  <Redirect method="GET">./Serious.xml</Redirect>
 </Response>
