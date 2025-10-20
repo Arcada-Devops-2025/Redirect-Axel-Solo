@@ -8,7 +8,8 @@
     <Say>Press 5 if you want to listen to Sir Talks-a-lot.</Say>
     <Say>Press 6 to play rock paper scisors.</Say>
     <Say>Press 7 for some jokes.</Say>
-    <Say>Press 8 for a... Chicken?</Say>
+    <Say>Press 8 for a Chicken?</Say>
+    <Say>Press 9 to play a trivia game</Say>
   </Gather>
   <!-- If no input, try again -->
   <Redirect method="GET">./jokes.xml</Redirect>

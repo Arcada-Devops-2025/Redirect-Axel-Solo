@@ -53,6 +53,12 @@ export const handler = async (event) => {
   <Redirect method="POST">https://chickenbot-bm1l.onrender.com/voice</Redirect>
 </Response>`;
       break;
+    case '9':
+      responseXml = `<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Redirect method="POST">https://twilio-app-git-trillio-twillio.2.rahtiapp.fi/voice</Redirect>
+</Response>`;
+      break;
     default:
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
