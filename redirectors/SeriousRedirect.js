@@ -38,7 +38,7 @@ export const handler = async (event) => {
     case '6':
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Redirect method="POST">https://dev-ops-projekt-arcada-devops.2.rahtiapp.fi/bot</Redirect>
+  <Redirect method="GET">https://dev-ops-projekt-arcada-devops.2.rahtiapp.fi/bot</Redirect>
 </Response>`;
       break;
     case '7':
