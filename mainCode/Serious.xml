@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Gather numDigits="1" action="https://zeqdnublcf.execute-api.eu-north-1.amazonaws.com/default/TwilSeriousRedirector" method="GET" timeout="10">
-    <Say>please press the number you like most. or just 1 if you are testing.</Say>
+    <Say>Press 1 to find out .</Say>
+    <Say>Press 2 for some information about today.</Say>
+    <Say>Press 3 for a Facts.</Say>
+    <Say>Press 4 if you need some advice.</Say>
+    <Say>Press 5 for info about the weather.</Say>
+    <Say>Press 6 if you need some technical help.</Say>
+    <Say>Press 7 if you want to know todays weather.</Say>
+    <Say>Press 8 if you are unsure what to eat today</Say>
+    <Say>Press 9 to ask ChatGPT.</Say>
   </Gather>
   <!-- If no input, try again -->
   <Redirect method="GET">./jokes.xml</Redirect>
