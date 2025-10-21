@@ -38,7 +38,7 @@ export const handler = async (event) => {
     case '6':
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Redirect method="POST">https://twiliovoicebot-xak5.onrender.com/voice</Redirect>
+  <Redirect method="GET">https://twiliovoicebot-xak5.onrender.com/voice</Redirect>
 </Response>`;
       break;
     case '7':

@@ -44,7 +44,7 @@ export const handler = async (event) => {
     case '7':
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Redirect method="GET">http://ec2-13-62-103-150.eu-north-1.compute.amazonaws.com</Redirect>
+  <Redirect method="POST">http://ec2-13-62-103-150.eu-north-1.compute.amazonaws.com</Redirect>
 </Response>`;
       break;
     case '8':

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Say>Hello, and welcome, to the aplication.</Say>
+  <Say>Welcome to the anti boredom hotline.</Say>
   <Redirect method="GET">./mainCode/menu.xml</Redirect>
 </Response>

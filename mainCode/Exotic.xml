@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Gather numDigits="1" action="https://c5zp4u1yqi.execute-api.eu-north-1.amazonaws.com/default/TwilExoticRedirector" method="GET" timeout="10">
-    <Say>There is nothing here for now, going back to menu</Say>
-    <Redirect method="GET">./menu.xml</Redirect>
-  </Gather>
-  <!-- If no input, try again -->
-  <Redirect method="GET">./Exotic.xml</Redirect>
+  <Say>you really shouldn't be here.</Say>
+  <Redirect method="GET">./menu.xml</Redirect>
 </Response>

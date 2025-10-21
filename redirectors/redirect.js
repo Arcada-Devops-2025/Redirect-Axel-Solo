@@ -1,5 +1,5 @@
 export const handler = async (event) => {
-  
+  // Twilio sends parameters either in queryStringParameters (GET) or body (POST)
   const params = event.queryStringParameters || {};
   const digits = params.Digits;
   let responseXml = '';
@@ -20,7 +20,7 @@ export const handler = async (event) => {
     case '3':
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Redirect method="GET">http://testforexersise.s3-website.eu-north-1.amazonaws.com/mainCode/exotic.xml</Redirect>
+  <Redirect method="GET">http://testforexersise.s3-website.eu-north-1.amazonaws.com/mainCode/Exotic.xml</Redirect>
 </Response>`;
       break;
     default:
