@@ -1,4 +1,4 @@
-export const handler = async (event) => {
+exports.handler = async (event) => {
   // Twilio sends parameters either in queryStringParameters (GET) or body (POST)
   const params = event.queryStringParameters || {};
   const digits = params.Digits;
