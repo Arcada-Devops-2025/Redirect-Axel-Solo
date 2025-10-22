@@ -32,7 +32,7 @@ export const handler = async (event) => {
     case '5':
       responseXml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Redirect method="POST">https://devops-mily.onrender.com/</Redirect>
+  <Redirect method="POST">https://devops-mily.onrender.com/voice</Redirect>
 </Response>`;
       break;
     case '6':
